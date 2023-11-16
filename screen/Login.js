@@ -63,7 +63,7 @@ const Login = ({navigation}) => {
        </View>
        <View style={{marginTop:40,marginLeft:30,flexDirection:'row'}}>
         <Text style={{fontSize:20,fontWeight:700}}>Don't have account ?</Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate("Register")}>
             <Text style={{fontSize:20,fontWeight:700,color:'orange',left:30}}>Register</Text>
         </TouchableOpacity>
        </View>

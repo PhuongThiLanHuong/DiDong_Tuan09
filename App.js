@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Login from './screen/Login';
 import TakeNote from './screen/TakeNote';
+import Register from './screen/Register';
 const stack=createStackNavigator();
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <stack.Navigator initialRouteName='Login'>
         <stack.Screen name="Login" component={Login} options={{headerShown:false}}/>
         <stack.Screen name="TakeNote" component={TakeNote} options={{headerShown:false}}/>
+        <stack.Screen name="Register" component={Register} options={{headerShown:false}}/>
       </stack.Navigator>
    </NavigationContainer>
   );

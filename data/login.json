@@ -69,6 +69,12 @@
           "time": "8:00"
         }
       ]
+    },
+    {
+      "username": "admin3",
+      "password": "123456789",
+      "fullName": "Lan",
+      "id": "t-vVdI9"
     }
   ]
 }
