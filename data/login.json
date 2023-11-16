@@ -1,0 +1,74 @@
+{
+  "login": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "fullName": "Lan Huong",
+      "note": [
+        {
+          "id": "1",
+          "name": "thuc day",
+          "time": "6:00"
+        },
+        {
+          "id": "2",
+          "name": "an sang",
+          "time": "7:00"
+        },
+        {
+          "id": "3",
+          "name": "di hoc",
+          "time": "8:00"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "2",
+      "username": "admin1",
+      "password": "123456",
+      "fullName": "Lan Huong",
+      "note": [
+        {
+          "id": "1",
+          "name": "thuc day",
+          "time": "6:00"
+        },
+        {
+          "id": "2",
+          "name": "an sang",
+          "time": "7:00"
+        },
+        {
+          "id": "3",
+          "name": "di hoc",
+          "time": "8:00"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "username": "admin2",
+      "password": "123456",
+      "fullName": "Lan Huong",
+      "note": [
+        {
+          "id": "1",
+          "name": "thuc day",
+          "time": "6:00"
+        },
+        {
+          "id": "2",
+          "name": "an sang",
+          "time": "7:00"
+        },
+        {
+          "id": "3",
+          "name": "di hoc",
+          "time": "8:00"
+        }
+      ]
+    }
+  ]
+}
